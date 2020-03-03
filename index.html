@@ -44,7 +44,7 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#intro">Home</a></li>
+          <li class="active"><a href="#introd">Home</a></li>
           <li><a href="#about">Quienes somos</a></li>
           <li><a href="#services">Productos</a></li>
           <li><a href="#portfolio">Tecnologias</a></li>
@@ -59,24 +59,20 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
+
+  <section id="introd">
     <div class="container">
+        <video id="video"  muted loop controls width="100%">
+          <source src="img/video.mp4" type="video/mp4">
+        </video>
 
-      <div>
-        <!-- <video autoplay muted loop controls width="100%" id="intro-video">
-            <source src="img/video.mp4" type="video/mp4">
-        </video> -->
-        <<img src="img/intro-img.svg" alt="" class="img-fluid">
-      </div>
-
-      <div class="intro-info">
-        <h2>Brindamos<br><span>soluciones</span><br>a tu empresa!</h2>
-        <div>
-          <a href="#about" class="btn-get-started scrollto">Conocenos</a>
-          <a href="#services" class="btn-services scrollto">Nuestros Productos</a>
+        <div class="overlay">
+          <h2 id="topText">We provide<br><span>solutions</span><br>for your business!</h2>
+          <!-- <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#services" class="btn-services scrollto">Our Services</a>
+          </div> -->
         </div>
-      </div>
-
     </div>
   </section><!-- #intro -->
 
@@ -92,32 +88,34 @@
           <h3>Quienes Somos</h3>
           
         </header>
-
+        <div class="historia">
+          <p>
+            MET Industrial es una empresa familiar fundada en el año 1982 con capitales Nacionales.<br>
+            Se inició realizando mecanizados pequeños; Teniendo un claro objetivo el desarrollar un modelo de negocio basado en la industria metalmecánica.<br>
+            Desde hace más de 30 años trabajamos para ser una empresa sustentable y cada gran momento de este negocio está inspirado en ese ideal.<br>
+            A lo largo del tiempo fuimos desarrollando nuevas habilidades y ampliando las capacidades productivas, lo que nos permitió ofrecer nuestros productos y servicios a sectores del mercado como el aeronáutico, automotriz, ferroviario y agrícola, entre otros. Siempre priorizando al cliente y con los más altos estándares de calidad como principal pilar.<br>
+            En toda nuestra trayectoria, Met  industrial  a realizado trabajos de diferene índole como Instalaciones industriales, mecanizados de alta precisión ,  proyecto-diseño-construcción de dispositivos, maquinas, matrices, calibres de control, productos llave en mano, producción en serie, mecanizado de gran porte y soldado de grandes estructuras.<br>
+            Actualmente contamos con una planta de producción de 1500 m2 ubicada en La Calera.<br>
+            Una estructura de 35 trabajadores entre los que se destacan diseñadores, automatistas electricistas, administrativos, Operarios especialistas en Mecanizados, soldadores,  etc .<br>
+          </p>
+        </div>
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <!-- <p>
-              - Satisfacer las Necesidades y expectativas de nuestros clientes y otras partes interesadas.
-              - Cumplir con los marcos legales  aplicables a nuestra organización.
-              - Garantizar el Desarrollo de los Recursos Humanos y el compromiso de las personas , considerando que son esenciales para aumentar la capacidad de la organización para generar y proporcionar valor 
-              - Garantizar que las personas que se desempeñan dentro del sistema de gestion de calidad sean competentes, asegurandose que tomen conciencia de esta politica de calidad, los objetivos de la Calidad Pertinente, su contribucion a la eficacia del sistema de gestion de la calidad y los beneficios de una mejora en el desempeño.
-              - Implementar, mantener y mejorar de manera continua el sistema de gestion de Calidad.
-            </p> -->
-
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
               <h4 class="title"><a href="">Nuestra Mision</a></h4>
               <p class="description">La provision de servicios de mecanizado, de componentes para matrices  y piezas en serie.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
+              <div class="icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
               <h4 class="title"><a href="">Nuestra Vision</a></h4>
               <p class="description">Ser valorados por nuestros clientes, empleados, competencia y socios como una empresa referente tanto en el mercado local, nacional e internacional con un continuo crecimiento y avance.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <div class="icon"><i class="fa fa-book" aria-hidden="false"></i></div>
               <h4 class="title"><a href="">Nuestros Valores</a></h4>
               <p class="description">- Ser  una organización orientada al cliente.					
                 <br>- Fomentar y mantener una comunicación abierta y eficaz 					
@@ -157,7 +155,7 @@
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+            <h4></h4>
             <p>
               - Garantizar que las personas que se desempeñan dentro del sistema de gestion de calidad sean competentes, asegurandose que tomen conciencia de esta politica de calidad, los objetivos de la Calidad Pertinente, su contribucion a la eficacia del sistema de gestion de la calidad y los beneficios de una mejora en el desempeño.
             </p>
@@ -187,14 +185,14 @@
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="">DISPOSITIVOS PARA ENSAMBLES DE CHAPISTERIA EN GENERAL. AUTOMATIZADOS</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="">MATRICES DE ESTAMPADO EN FRÍO PARA LA INDUSTRIA AUTOMOTRIZ</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
@@ -202,14 +200,14 @@
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="">CALIBRES PARA EL CONTROL DIMENSIONAL EN GENERAL</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="">MAQUINAS PUNZONADORAS, DOBLADORAS, PERFILADORAS, ETC</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
           </div>
@@ -217,16 +215,31 @@
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <h4 class="title"><a href="">RACKS Y MEDIOS DE TRANSPORTE SEGÚN REQUERIMIENTO DEL CLIENTE</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <h4 class="title"><a href="">FABRICACIÓN DE PIEZAS ESTÁNDAR PARA LA INDUSTRIA</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
+            <h4 class="title"><a href="">PIEZAS SERIADAS Y DE PRECISIÓN: TORNEADOS Y FRESADOS EN PRODUCCIÓN SERIADA.</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">PARTES PARA LA INDUSTRIA AERONAUTICA</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              </div>
           </div>
 
         </div>
@@ -560,11 +573,45 @@
     ============================-->
 
     <section id="team" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Clientes</h3>
+        </div>
+
+        <div class="owl-carousel wow fadeInUp">
+          <div class="item"><img src="img/clients/client-1.png" alt=""></div>
+          <img src="img/clients/client-2.png" alt="">
+          <img src="img/clients/client-3.png" alt="">
+          <img src="img/clients/client-4.png" alt="">
+          <img src="img/clients/client-5.png" alt="">
+          <!-- <img src="img/clients/client-6.png" alt=""> -->
+          <img src="img/clients/client-7.png" alt="">
+          <img src="img/clients/client-8.png" alt="">
+          <img src="img/clients/client-9.png" alt="">
+          <img src="img/clients/client-10.png" alt="">
+          <img src="img/clients/client-11.png" alt="">
+          <img src="img/clients/client-12.png" alt="">
+          <img src="img/clients/client-13.png" alt="">
+          <img src="img/clients/client-14.png" alt="">
+          <img src="img/clients/client-15.png" alt="">
+          <img src="img/clients/client-16.png" alt="">
+          <img src="img/clients/client-17.png" alt="">
+          <img src="img/clients/client-18.png" alt="">
+          <img src="img/clients/client-19.png" alt="">
+          <img src="img/clients/client-20.png" alt="">
+          <img src="img/clients/client-21.png" alt="">
+          <img src="img/clients/client-22.png" alt="">
+          <img src="img/clients/client-23.png" alt="">
+      </div>
+
+    </section><!-- #clients -->
+    <!-- <section id="team" class="section-bg">
 
       <div class="container">
 
         <div class="section-header">
-          <h3>Our CLients</h3>
+          <h3>Nuestros Clientes</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
         </div>
 
@@ -572,49 +619,49 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+              <img src="img/clients/fiat.png" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-2.png" class="img-fluid" alt="">
+              <img src="img/clients/comau.png" class="img-fluid" alt="">
             </div>
           </div>
         
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+              <img src="img/clients/fadea.png" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+              <img src="img/clients/gestamp.png" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+              <img src="img/clients/magneti.png" class="img-fluid" alt="">
             </div>
           </div>
         
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-6.png" class="img-fluid" alt="">
+              <img src="img/clients/mercedes.jpg" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-7.png" class="img-fluid" alt="">
+              <img src="img/clients/nissan.jpg" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-8.png" class="img-fluid" alt="">
+              <img src="img/clients/renault.png" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -622,7 +669,7 @@
 
       </div>
 
-    </section>
+    </section> -->
 
     <!--==========================
       Contact Section
@@ -638,51 +685,61 @@
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.592357216537!2d-64.36219756919215!3d-31.35389159751288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d62181d62b74f%3A0x22c32b616d2b7482!2sMet%20Industrial%20SRL!5e0!3m2!1ses-419!2sar!4v1582501277298!5m2!1ses-419!2sar" width="100%" height="312px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
+            <div class="row justify-content-center">
+              <div class="col-6 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>Ruta E-55 Km.11 - V.El Diquecito</p>
               </div>
-              <div class="col-md-4 info">
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-6 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>info@metindustrial.com.ar</p>
               </div>
-              <div class="col-md-3 info">
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-6 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>(03543) 467171</p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-6 info">
+                <button id="send-msg" title="Enviar email">Enviar email</button>
               </div>
             </div>
 
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+
+            <!-- <div class="form">Tu mensaje ha sido enviado. Gracias!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un email valido" />
                     <div class="validation"></div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo" placeholder="Mensaje"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button type="submit" title="Send Message">Enviar</button></div>
               </form>
-            </div>
+            </div> -->
           </div>
 
         </div>
@@ -701,12 +758,14 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>NewBiz</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>MET industrial</h3>
+            <p>
+              - Ingeniería y diseño propio<br>- Manejo de CAD-CAM<br>- Automatismo y control electrónico por PLC<br>- Mecanizados con múltiples técnicas<br>- Robotica aplicada en dispositivos<br>- Medición in-out doors con brazo FARO
+            </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Accesos Rapidos</h4>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
@@ -716,34 +775,25 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contacto</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Ruta E-55 Km.11 - V.El Diquecito <br>
+              La Calera, 5151<br>
+              Argentina <br>
+              <strong>Telefono:</strong> (03543) 467171<br>
+              <strong>Email:</strong> info@metindustrial.com.ar<br>
             </p>
 
-            <div class="social-links">
+            <!-- <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
+            </div> -->
 
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
-          </div>
-
         </div>
       </div>
     </div>
@@ -780,6 +830,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/owlcarousel/jquer.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
