@@ -160,9 +160,12 @@ h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-.container {
-  position: relative;
+.vid-container {
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
 .container video {
@@ -173,16 +176,41 @@ h6 {
 .overlay {
   position: absolute;
   top: 30%;
-  left: 15%;
+  left: 20%;
   z-index: 1;
 }
 
 #topText {
-  color: white;
-  font-size: 20px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#intro .overlay .btn-get-started,
+#intro .overlay .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#intro .overlay .btn-get-started,
+#intro .overlay .btn-services {
+  border: 2px solid #fff;
+}
+
+#intro .overlay .btn-get-started:hover,
+#intro .overlay .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
