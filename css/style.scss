@@ -7,7 +7,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 a {
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -83,7 +83,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #007bff;
+  border-top: 6px solid $metBlue;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -191,7 +191,7 @@ h6 {
 
 #intro .overlay .btn-get-started,
 #intro .overlay .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -210,8 +210,8 @@ h6 {
 
 #intro .overlay .btn-get-started:hover,
 #intro .overlay .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: $metBlue;
+  border-color: $metBlue;
   color: #fff;
 }
 
@@ -241,7 +241,7 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -432,7 +432,7 @@ h6 {
   font-size: 36px;
   color: #283d50;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
 }
 
@@ -572,6 +572,9 @@ div .historia {
 }
 
 #services .box {
+  height: 150px;
+  display: flex;
+  align-items: center;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -589,20 +592,20 @@ div .historia {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#services .icon ion-icon {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
 #services .title {
-  margin-left: 40px;
+  margin-left: 60px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: 18px;
 }
 
@@ -611,7 +614,7 @@ div .historia {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: $metBlue;
 }
 
 #services .description {
@@ -623,7 +626,7 @@ div .historia {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: $metBlue;
 }
 
 #why-us .section-header h3,
@@ -632,8 +635,8 @@ div .historia {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: $metBlue;
+  border-color: $metBlue;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -644,8 +647,8 @@ div .historia {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: $metBlue;
+  border-color: $metBlue;
 }
 
 #why-us .card i {
@@ -681,7 +684,7 @@ div .historia {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -691,7 +694,7 @@ div .historia {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -718,7 +721,7 @@ div .historia {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: $metBlue;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -728,7 +731,7 @@ div .historia {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: $metBlue;
   color: #fff;
 }
 
@@ -745,7 +748,7 @@ div .historia {
 #portfolio .portfolio-item .portfolio-wrap {
   overflow: hidden;
   position: relative;
-  border-radius: 6px;
+  border-radius: 8px;
   margin: 0;
 }
 
@@ -1073,7 +1076,7 @@ div .historia {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1083,7 +1086,7 @@ div .historia {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   color: #888;
 }
 
@@ -1208,7 +1211,7 @@ div .historia {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1219,7 +1222,7 @@ div .historia {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   color: #ecf5ff;
 }
 
@@ -1359,6 +1362,44 @@ div .historia {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+
+  #topText {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top:30px;
+  }
+
+  #intro .overlay .btn-get-started {
+    letter-spacing: 0;
+    padding: 5px 10px;
+  }
+
+  #intro .overlay .btn-services {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #topText {
+    display: none;
+  }
+
+  #intro .overlay .btn-get-started {
+    display: none;
+  }
+
+  #intro .overlay .btn-services {
+    display: none;
+  }
+
+  #services .icon {
+    display: none;
+  }
+
+  #services .title {
+    margin-left: 0px;
   }
 }
 
