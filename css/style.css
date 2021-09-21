@@ -161,7 +161,8 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 .vid-container {
-  width: 100%;
+  width: 100vw;
+  height: 50vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
