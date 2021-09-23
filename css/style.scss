@@ -167,7 +167,7 @@ h6 {
 
 .vid-container { 
   width: 100vw;
-  height: 50vw;
+
   justify-content: center;
   position: relative;
 }
@@ -179,29 +179,32 @@ h6 {
 
 .overlay {
   position:absolute;
-  top:30%;
-  left: 20%;
+  top: 15%;
+  left: 5%;
   z-index:1;
 }
 
 #topText {
   color: #fff;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
 }
 
 #intro .overlay .btn-get-started,
 #intro .overlay .btn-services {
   font-family: "Roboto", "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
+  text-align: center;
+  padding: 5px 0;
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
   color: #fff;
+  height: 30px;
+  width: 120px;
 }
 
 #intro .overlay .btn-get-started,
@@ -626,8 +629,13 @@ div .historia {
 }
 
 #why-us {
-  padding: 60px 0;
+  padding: 20px 0;
   background: $metBlue;
+}
+
+#why-us div.container {
+  display: flex;
+  justify-content: center;
 }
 
 #why-us .section-header h3,
@@ -639,12 +647,11 @@ div .historia {
   background: $metBlue;
   border-color: $metBlue;
   border-radius: 10px;
-  margin: 0 15px;
   padding: 15px 0;
   text-align: center;
   color: #fff;
-  transition: 0.3s ease-in-out;
   height: 100%;
+  width: 80vw;
 }
 
 #why-us .card:hover {
@@ -1375,6 +1382,7 @@ div .historia {
   #intro .overlay .btn-get-started {
     letter-spacing: 0;
     padding: 5px 10px;
+    height: 10px;
   }
 
   #intro .overlay .btn-services {
